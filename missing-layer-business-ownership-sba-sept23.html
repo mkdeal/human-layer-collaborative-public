@@ -324,8 +324,8 @@
 
   /* Slide 3: statistics */
   .stat-col { border-radius: var(--radius); padding: 20px 22px 16px; border: 1px solid var(--line); background: var(--glass); backdrop-filter: blur(14px); }
-  .stat-col--os { border-top: 3px solid var(--blue); }
-  .stat-col--hs { border-top: 3px solid var(--purple); }
+  .stat-col--os { border-top: 3px solid var(--purple); }
+  .stat-col--hs { border-top: 3px solid var(--teal); }
   .stat-col-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 14px; }
   .stat-col-head .sys {
     font-family: var(--sans); font-size: 16px; font-weight: 700;
@@ -335,8 +335,8 @@
     font-family: var(--sans); font-size: 13px; font-weight: 600;
     letter-spacing: 0.8px;
   }
-  .stat-col--os .alias { color: var(--blue); filter: brightness(1.35); }
-  .stat-col--hs .alias { color: var(--purple); filter: brightness(1.5); }
+  .stat-col--os .alias { color: var(--purple); filter: brightness(1.35); }
+  .stat-col--hs .alias { color: var(--teal); }
 
   .stat-row { display: flex; align-items: baseline; gap: 14px; padding: 7px 0; border-bottom: 1px solid var(--line); }
   .stat-row:last-child, .stat-col .stat-row:last-of-type { border-bottom: none; }
@@ -344,8 +344,8 @@
     font-family: var(--display); font-weight: 700; font-size: 34px; line-height: 1;
     flex-shrink: 0; min-width: 96px; text-align: right;
   }
-  .stat-col--os .stat-num { color: var(--blue); filter: brightness(1.3); }
-  .stat-col--hs .stat-num { color: var(--purple); filter: brightness(1.55); }
+  .stat-col--os .stat-num { color: var(--purple); filter: brightness(1.4); }
+  .stat-col--hs .stat-num { color: var(--teal); }
   .stat-txt { font-size: 14px; line-height: 1.4; color: var(--ink-2); }
   .stat-row--clinical .stat-txt { color: var(--slate); }
 
@@ -571,8 +571,8 @@
      gets the wider column and the two sets land on a matching number of rows. */
   #s4 .value-card .two-col { grid-template-columns: 0.9fr 1.1fr; gap: 12px; }
   .sys-pills .disc-pill { font-size: 10px; padding: 4px 8px; letter-spacing: 0; }
-  .sys-pills--hs .disc-pill { border-color: rgba(139,92,246,0.32); background: rgba(139,92,246,0.10); }
-  .sys-pills--os .disc-pill { border-color: rgba(59,130,246,0.32); background: rgba(59,130,246,0.10); }
+  .sys-pills--hs .disc-pill { border-color: rgba(45,212,191,0.36); background: rgba(45,212,191,0.10); }
+  .sys-pills--os .disc-pill { border-color: rgba(139,92,246,0.32); background: rgba(139,92,246,0.10); }
 
   /* Slide 9: readable domain under the QR, and the brand wordmark at the close */
   .qr-url { font-family: var(--mono); font-size: 13px; font-weight: 600; letter-spacing: 0.6px; color: var(--teal); margin-top: 10px; }
@@ -796,12 +796,12 @@
           <div class="section-badge section-badge--blue" style="margin-bottom: 12px;">1 &nbsp;&#183;&nbsp; Operating System vs Human System</div>
           <div class="two-col" style="gap: 16px;">
             <div>
-              <div style="font-size: 13.5px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--blue); filter: brightness(1.35);">Operating System</div>
+              <div style="font-size: 13.5px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--purple); filter: brightness(1.5);">Operating System</div>
               <div style="font-size: 11.5px; font-weight: 600; color: var(--muted); margin-bottom: 8px;">(Business System)</div>
               <div class="disc-row sys-pills sys-pills--os"><span class='disc-pill'>Workflows</span><span class='disc-pill'>SOPs</span><span class='disc-pill'>Pricing</span><span class='disc-pill'>Inventory</span><span class='disc-pill'>Scheduling</span><span class='disc-pill'>Staffing</span><span class='disc-pill'>Compliance</span><span class='disc-pill'>Hiring</span></div>
             </div>
             <div>
-              <div style="font-size: 13.5px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--purple); filter: brightness(1.55);">Human System</div>
+              <div style="font-size: 13.5px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--teal);">Human System</div>
               <div style="font-size: 11.5px; font-weight: 600; color: var(--muted); margin-bottom: 8px;">(Owner System)</div>
               <div class="disc-row sys-pills sys-pills--hs"><span class='disc-pill'>Trust</span><span class='disc-pill'>Morale</span><span class='disc-pill'>Identity</span><span class='disc-pill'>Resilience</span><span class='disc-pill'>Judgment</span><span class='disc-pill'>Clarity</span><span class='disc-pill'>Confidence</span><span class='disc-pill'>Presence</span><span class='disc-pill'>Focus</span><span class='disc-pill'>Motivation</span><span class='disc-pill'>Perspective</span><span class='disc-pill'>Communication</span></div>
             </div>
